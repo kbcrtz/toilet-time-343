@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9913F6A2DD3FB9700B4760B /* DAReportExt.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = A9913F5E2DD3FB9700B4760B /* DAReportExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E2308A4D2DD423CE00032C00 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FC43122DD3F5ED0027B491 /* DeviceActivity.framework */; };
+		E2308A552DD423CE00032C00 /* UnlockMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E2308A4C2DD423CD00032C00 /* UnlockMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9913F682DD3FB9700B4760B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E254D2202DB2E37C0068CD5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9913F5D2DD3FB9700B4760B;
+			remoteInfo = DAReportExt;
+		};
+		E2308A532DD423CE00032C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E254D2202DB2E37C0068CD5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2308A4B2DD423CD00032C00;
+			remoteInfo = UnlockMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9913F6B2DD3FB9700B4760B /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				A9913F6A2DD3FB9700B4760B /* DAReportExt.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FC43202DD3F5EE0027B491 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E2308A552DD423CE00032C00 /* UnlockMonitor.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A9913F5E2DD3FB9700B4760B /* DAReportExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = DAReportExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FC43122DD3F5ED0027B491 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		E2308A4C2DD423CD00032C00 /* UnlockMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UnlockMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E254D2282DB2E37C0068CD5E /* ToileTime AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToileTime AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A9913F6F2DD3FB9700B4760B /* Exceptions for "DAReportExt" folder in "DAReportExt" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A9913F5D2DD3FB9700B4760B /* DAReportExt */;
+		};
+		A9913F732DD3FD4100B4760B /* Exceptions for "ToileTime AI" folder in "DAReportExt" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DailyOverviewReport.swift,
+				SharedConstants.swift,
+			);
+			target = A9913F5D2DD3FB9700B4760B /* DAReportExt */;
+		};
+		E2308A592DD423CE00032C00 /* Exceptions for "UnlockMonitor" folder in "UnlockMonitor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E2308A4B2DD423CD00032C00 /* UnlockMonitor */;
+		};
+		E254D23A2DB2E37D0068CD5E /* Exceptions for "ToileTime AI" folder in "ToileTime AI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DailyOverviewReport.swift,
+				Info.plist,
+			);
+			target = E254D2272DB2E37C0068CD5E /* ToileTime AI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A9913F5F2DD3FB9700B4760B /* DAReportExt */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A9913F6F2DD3FB9700B4760B /* Exceptions for "DAReportExt" folder in "DAReportExt" target */,
+			);
+			path = DAReportExt;
+			sourceTree = "<group>";
+		};
+		E2308A4E2DD423CE00032C00 /* UnlockMonitor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E2308A592DD423CE00032C00 /* Exceptions for "UnlockMonitor" folder in "UnlockMonitor" target */,
+			);
+			path = UnlockMonitor;
+			sourceTree = "<group>";
+		};
+		E254D22A2DB2E37C0068CD5E /* ToileTime AI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E254D23A2DB2E37D0068CD5E /* Exceptions for "ToileTime AI" folder in "ToileTime AI" target */,
+				A9913F732DD3FD4100B4760B /* Exceptions for "ToileTime AI" folder in "DAReportExt" target */,
+			);
+			path = "ToileTime AI";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9913F5B2DD3FB9700B4760B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2308A492DD423CD00032C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2308A4D2DD423CE00032C00 /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E254D2252DB2E37C0068CD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9FC43112DD3F5ED0027B491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC43122DD3F5ED0027B491 /* DeviceActivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E254D21F2DB2E37C0068CD5E = {
+			isa = PBXGroup;
+			children = (
+				E254D22A2DB2E37C0068CD5E /* ToileTime AI */,
+				A9913F5F2DD3FB9700B4760B /* DAReportExt */,
+				E2308A4E2DD423CE00032C00 /* UnlockMonitor */,
+				A9FC43112DD3F5ED0027B491 /* Frameworks */,
+				E254D2292DB2E37C0068CD5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E254D2292DB2E37C0068CD5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E254D2282DB2E37C0068CD5E /* ToileTime AI.app */,
+				A9913F5E2DD3FB9700B4760B /* DAReportExt.appex */,
+				E2308A4C2DD423CD00032C00 /* UnlockMonitor.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9913F5D2DD3FB9700B4760B /* DAReportExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9913F6E2DD3FB9700B4760B /* Build configuration list for PBXNativeTarget "DAReportExt" */;
+			buildPhases = (
+				A9913F5A2DD3FB9700B4760B /* Sources */,
+				A9913F5B2DD3FB9700B4760B /* Frameworks */,
+				A9913F5C2DD3FB9700B4760B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A9913F5F2DD3FB9700B4760B /* DAReportExt */,
+			);
+			name = DAReportExt;
+			packageProductDependencies = (
+			);
+			productName = DAReportExt;
+			productReference = A9913F5E2DD3FB9700B4760B /* DAReportExt.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+		E2308A4B2DD423CD00032C00 /* UnlockMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2308A562DD423CE00032C00 /* Build configuration list for PBXNativeTarget "UnlockMonitor" */;
+			buildPhases = (
+				E2308A482DD423CD00032C00 /* Sources */,
+				E2308A492DD423CD00032C00 /* Frameworks */,
+				E2308A4A2DD423CD00032C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E2308A4E2DD423CE00032C00 /* UnlockMonitor */,
+			);
+			name = UnlockMonitor;
+			packageProductDependencies = (
+			);
+			productName = UnlockMonitor;
+			productReference = E2308A4C2DD423CD00032C00 /* UnlockMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E254D2272DB2E37C0068CD5E /* ToileTime AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E254D23B2DB2E37D0068CD5E /* Build configuration list for PBXNativeTarget "ToileTime AI" */;
+			buildPhases = (
+				E254D2242DB2E37C0068CD5E /* Sources */,
+				E254D2252DB2E37C0068CD5E /* Frameworks */,
+				E254D2262DB2E37C0068CD5E /* Resources */,
+				A9FC43202DD3F5EE0027B491 /* Embed Foundation Extensions */,
+				A9913F6B2DD3FB9700B4760B /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9913F692DD3FB9700B4760B /* PBXTargetDependency */,
+				E2308A542DD423CE00032C00 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E254D22A2DB2E37C0068CD5E /* ToileTime AI */,
+			);
+			name = "ToileTime AI";
+			packageProductDependencies = (
+			);
+			productName = "ToileTime AI";
+			productReference = E254D2282DB2E37C0068CD5E /* ToileTime AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E254D2202DB2E37C0068CD5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A9913F5D2DD3FB9700B4760B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E2308A4B2DD423CD00032C00 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E254D2272DB2E37C0068CD5E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = E254D2232DB2E37C0068CD5E /* Build configuration list for PBXProject "ToileTime AI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E254D21F2DB2E37C0068CD5E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E254D2292DB2E37C0068CD5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E254D2272DB2E37C0068CD5E /* ToileTime AI */,
+				A9913F5D2DD3FB9700B4760B /* DAReportExt */,
+				E2308A4B2DD423CD00032C00 /* UnlockMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9913F5C2DD3FB9700B4760B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2308A4A2DD423CD00032C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E254D2262DB2E37C0068CD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9913F5A2DD3FB9700B4760B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2308A482DD423CD00032C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E254D2242DB2E37C0068CD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9913F692DD3FB9700B4760B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9913F5D2DD3FB9700B4760B /* DAReportExt */;
+			targetProxy = A9913F682DD3FB9700B4760B /* PBXContainerItemProxy */;
+		};
+		E2308A542DD423CE00032C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2308A4B2DD423CD00032C00 /* UnlockMonitor */;
+			targetProxy = E2308A532DD423CE00032C00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A9913F6C2DD3FB9700B4760B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DAReportExt/DAReportExt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BAGYLMJ6LU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DAReportExt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DAReportExt;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ToileTime-AI-21.DAReportExt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9913F6D2DD3FB9700B4760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DAReportExt/DAReportExt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BAGYLMJ6LU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DAReportExt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DAReportExt;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ToileTime-AI-21.DAReportExt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2308A572DD423CE00032C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = UnlockMonitor/UnlockMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BAGYLMJ6LU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UnlockMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UnlockMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ToileTime-AI-21.UnlockMonitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2308A582DD423CE00032C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = UnlockMonitor/UnlockMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BAGYLMJ6LU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UnlockMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UnlockMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ToileTime-AI-21.UnlockMonitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E254D23C2DB2E37D0068CD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ToileTime AI/ToileTime AI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BAGYLMJ6LU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ToileTime AI/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos for ToileTime AI.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ToileTime-AI-21";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E254D23D2DB2E37D0068CD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ToileTime AI/ToileTime AI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BAGYLMJ6LU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ToileTime AI/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos for ToileTime AI.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ToileTime-AI-21";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E254D23E2DB2E37D0068CD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E254D23F2DB2E37D0068CD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9913F6E2DD3FB9700B4760B /* Build configuration list for PBXNativeTarget "DAReportExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9913F6C2DD3FB9700B4760B /* Debug */,
+				A9913F6D2DD3FB9700B4760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2308A562DD423CE00032C00 /* Build configuration list for PBXNativeTarget "UnlockMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2308A572DD423CE00032C00 /* Debug */,
+				E2308A582DD423CE00032C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E254D2232DB2E37C0068CD5E /* Build configuration list for PBXProject "ToileTime AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E254D23E2DB2E37D0068CD5E /* Debug */,
+				E254D23F2DB2E37D0068CD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E254D23B2DB2E37D0068CD5E /* Build configuration list for PBXNativeTarget "ToileTime AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E254D23C2DB2E37D0068CD5E /* Debug */,
+				E254D23D2DB2E37D0068CD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E254D2202DB2E37C0068CD5E /* Project object */;
+}
